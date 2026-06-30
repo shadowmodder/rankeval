@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rankeval"
+version = "0.1.0"
+description = "Ranking metrics for search, recommendation, and RAG retrieval: NDCG, MRR, AP, P@K, R@K."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Sudhir Vissa" }]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]

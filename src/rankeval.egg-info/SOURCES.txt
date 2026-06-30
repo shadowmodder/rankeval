@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/rankeval/__init__.py
+src/rankeval/core.py
+src/rankeval.egg-info/PKG-INFO
+src/rankeval.egg-info/SOURCES.txt
+src/rankeval.egg-info/dependency_links.txt
+src/rankeval.egg-info/top_level.txt
+tests/test_core.py
